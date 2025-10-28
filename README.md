@@ -1,45 +1,40 @@
-The E-Voting System is a desktop-based application developed in Java (Swing + AWT) that allows users to register, log in, and cast votes electronically.
-An Administrator can manage candidates, view results, and reset the election system.
-This project demonstrates the use of Object-Oriented Programming (OOP) concepts, GUI design, and file handling for data storage.
+E-Voting System (Java Swing)
 
-🧩 Features
+A simple GUI-based electronic voting system developed using Java Swing and object-oriented programming principles.
+Voters can register, log in, and cast their votes, while the administrator can manage candidates, view results, and reset the system.
 
-🧑‍💻 Admin Login
+Features
 
-Add or remove candidates
+Voter registration and login
 
-View live election results
+One-vote-per-voter validation
 
-Factory Reset (clears all voters, candidates, and votes)
+Admin panel to add or remove candidates
 
-🗳️ Voter Registration
+View election results in real time
 
-Register as a new voter with name and ID
+Factory reset option to clear all data
 
-Prevents duplicate voter IDs
+Technologies Used
 
-🔐 Voter Login
+Language: Java
 
-Log in securely using Voter ID
+GUI Library: Swing (JFrame, JButton, JDialog, JLabel, etc.)
 
-Cast vote only once
+Data Storage: File serialization (.ser files)
 
-📊 Results Display
+Paradigm: Object-Oriented Programming (Encapsulation, Modularity, Abstraction)
 
-Real-time vote count display
+System Flow
 
-💾 Data Persistence
+Register as a new voter
 
-Uses .ser files for storing voters, candidates, and votes
+Log in using voter ID
 
-⚙️ Technologies Used
+Cast a vote (only once)
 
-Programming Language: Java
+Admin logs in to view results or reset the system
 
-GUI Framework: Swing / AWT
+Admin Password
 
-Storage: File Handling (Serialization)
-
-JDK Version: 17+ (tested on JDK 24)
-
-IDE: IntelliJ IDEA / VS Code / Eclipse
+admin123
